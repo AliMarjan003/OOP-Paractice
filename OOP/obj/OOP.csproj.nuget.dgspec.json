@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Complete Web Development\\Back-end\\C#\\OOP\\OOP\\OOP.csproj": {}
+    "D:\\Github\\OOP-Paractice\\OOP\\OOP.csproj": {}
   },
   "projects": {
-    "D:\\Complete Web Development\\Back-end\\C#\\OOP\\OOP\\OOP.csproj": {
+    "D:\\Github\\OOP-Paractice\\OOP\\OOP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Complete Web Development\\Back-end\\C#\\OOP\\OOP\\OOP.csproj",
+        "projectUniqueName": "D:\\Github\\OOP-Paractice\\OOP\\OOP.csproj",
         "projectName": "OOP",
-        "projectPath": "D:\\Complete Web Development\\Back-end\\C#\\OOP\\OOP\\OOP.csproj",
+        "projectPath": "D:\\Github\\OOP-Paractice\\OOP\\OOP.csproj",
         "packagesPath": "C:\\Users\\Ali Marjan\\.nuget\\packages\\",
-        "outputPath": "D:\\Complete Web Development\\Back-end\\C#\\OOP\\OOP\\obj\\",
+        "outputPath": "D:\\Github\\OOP-Paractice\\OOP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ali Marjan\\AppData\\Roaming\\NuGet\\NuGet.Config",
