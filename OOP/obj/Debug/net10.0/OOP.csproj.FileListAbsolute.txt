@@ -1,0 +1,15 @@
+D:\Complete Web Development\Back-end\C#\OOP\OOP\bin\Debug\net10.0\OOP.exe
+D:\Complete Web Development\Back-end\C#\OOP\OOP\bin\Debug\net10.0\OOP.deps.json
+D:\Complete Web Development\Back-end\C#\OOP\OOP\bin\Debug\net10.0\OOP.runtimeconfig.json
+D:\Complete Web Development\Back-end\C#\OOP\OOP\bin\Debug\net10.0\OOP.dll
+D:\Complete Web Development\Back-end\C#\OOP\OOP\bin\Debug\net10.0\OOP.pdb
+D:\Complete Web Development\Back-end\C#\OOP\OOP\obj\Debug\net10.0\OOP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Complete Web Development\Back-end\C#\OOP\OOP\obj\Debug\net10.0\OOP.AssemblyInfoInputs.cache
+D:\Complete Web Development\Back-end\C#\OOP\OOP\obj\Debug\net10.0\OOP.AssemblyInfo.cs
+D:\Complete Web Development\Back-end\C#\OOP\OOP\obj\Debug\net10.0\OOP.csproj.CoreCompileInputs.cache
+D:\Complete Web Development\Back-end\C#\OOP\OOP\obj\Debug\net10.0\OOP.dll
+D:\Complete Web Development\Back-end\C#\OOP\OOP\obj\Debug\net10.0\refint\OOP.dll
+D:\Complete Web Development\Back-end\C#\OOP\OOP\obj\Debug\net10.0\OOP.pdb
+D:\Complete Web Development\Back-end\C#\OOP\OOP\obj\Debug\net10.0\OOP.genruntimeconfig.cache
+D:\Complete Web Development\Back-end\C#\OOP\OOP\obj\Debug\net10.0\ref\OOP.dll
+D:\Complete Web Development\Back-end\C#\OOP\OOP\obj\Debug\net10.0\OOP.csproj.Up2Date
