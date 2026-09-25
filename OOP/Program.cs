@@ -46,31 +46,31 @@ namespace OOP
             //{
             //    Console.WriteLine("Name: {0}, Marks: {1}", cm[i].Name, cm[i].Marks);
             //}   
-            Library lb = new Library();
-            for (int i = 0; i<=3; i++)
-            {
-                lb[i] = new Book();
-                Console.Write("Enter Title:");
-                lb[i].Title = Console.ReadLine();
-                Console.Write("Enter Price:");
-                lb[i].Price=int.Parse(Console.ReadLine());
-            }
-            for(int i=0; i<=3; i++)
-            {
-                Console.WriteLine("Tile of book: {0}, Price of Book: {1}", lb[i].Title, lb[i].Price);
-            }
-            int max = 0;
-            int priceindex = 0;
-            for (int i = 0;i <=3;i++)
-            {
-                if (max < lb[i].Price)
-                {
-                    max = lb[i].Price; 
-                    priceindex = i;
-                }
-            }
-            Console.Write("Max price of Book is:" + max);
-            Console.WriteLine("Most expensive book is: " + lb[priceindex].Title);
+            //Library lb = new Library();
+            //for (int i = 0; i<=3; i++)
+            //{
+            //    lb[i] = new Book();
+            //    Console.Write("Enter Title:");
+            //    lb[i].Title = Console.ReadLine();
+            //    Console.Write("Enter Price:");
+            //    lb[i].Price=int.Parse(Console.ReadLine());
+            //}
+            //for(int i=0; i<=3; i++)
+            //{
+            //    Console.WriteLine("Tile of book: {0}, Price of Book: {1}", lb[i].Title, lb[i].Price);
+            //}
+            //int max = 0;
+            //int priceindex = 0;
+            //for (int i = 0;i <=3;i++)
+            //{
+            //    if (max < lb[i].Price)
+            //    {
+            //        max = lb[i].Price; 
+            //        priceindex = i;
+            //    }
+            //}
+            //Console.Write("Max price of Book is:" + max);
+            //Console.WriteLine("Most expensive book is: " + lb[priceindex].Title);
         }
     }
 }
