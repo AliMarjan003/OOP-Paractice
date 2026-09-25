@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Text;
 
 namespace OOP
@@ -15,30 +16,31 @@ namespace OOP
         }
         public int Salary
         {
-            get { return salary;}
+            get { return salary; }
             set
             {
-                if(value > 0)
+                if (value > 0)
                 {
                     salary = value;
                 }
                 else
                 {
-                    Console.WriteLine("Salary can't be negative"); 
+                    Console.WriteLine("Salary can't be negative");
                 }
             }
         }
-        internal void Applybonus()
+            internal void Applybonus()
         {
             salary = salary + (salary * 10 / 100);
         }
+        
     }
     internal class Company
     {
-        Employee[] emp = new Employee[4];
-        public Employee this[ int index]
+        Employee[] emp=new Employee[4];
+        public Employee this[int index]
         {
-            get { return emp[index]; }
+            get { return  emp[index]; }
             set { emp[index] = value; }
         }
     }

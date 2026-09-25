@@ -71,6 +71,29 @@ namespace OOP
             //}
             //Console.Write("Max price of Book is:" + max);
             //Console.WriteLine("Most expensive book is: " + lb[priceindex].Title);
+            Company obj= new Company();
+            for(int i = 0; i <=3; i++)
+            {
+                obj[i]=new Employee();
+                Console.WriteLine("Enter name of Employee:");
+                obj[i].Name = Console.ReadLine();
+                Console.WriteLine("Enter Salary of Employee:");
+                obj[i].Salary =int.Parse( Console.ReadLine());
+                obj[i].Applybonus();
+            }
+            for(int i = 0;i <=3;i++)
+            {
+                Console.WriteLine("Name of Employee:{0}, Salary of Employee:{1}", obj[i].Name, obj[i].Salary);
+            }
+            int counter = 0;  //counter is to check that how many employees have 50k+ salary
+            for(int i = 0; i <= 3; i++)
+            {
+                if (obj[i].Salary>50000)
+                {
+                    counter++;
+                }
+            }
+            Console.WriteLine("Number of employees having 50K+ salary:" + counter);
         }
     }
 }

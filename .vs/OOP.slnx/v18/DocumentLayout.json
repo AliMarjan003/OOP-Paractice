@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|solutionrelative:oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|d:\\github\\oop-paractice\\oop\\emp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|solutionrelative:oop\\emp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|d:\\github\\oop-paractice\\oop\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|solutionrelative:oop\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|d:\\github\\oop-paractice\\oop\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,9 +30,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Github\\OOP-Paractice\\OOP\\Program.cs",
               "RelativeDocumentMoniker": "OOP\\Program.cs",
-              "ToolTip": "D:\\Github\\OOP-Paractice\\OOP\\Program.cs*",
-              "RelativeToolTip": "OOP\\Program.cs*",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEgAAABRAAAAAAAAAA==",
+              "ToolTip": "D:\\Github\\OOP-Paractice\\OOP\\Program.cs",
+              "RelativeToolTip": "OOP\\Program.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAADwv18AAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-25T19:05:42.168Z",
               "IsPinned": true,
@@ -41,12 +41,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "emp.cs",
-              "DocumentMoniker": "D:\\Github\\OOP-Paractice\\OOP\\emp.cs",
-              "RelativeDocumentMoniker": "OOP\\emp.cs",
-              "ToolTip": "D:\\Github\\OOP-Paractice\\OOP\\emp.cs",
-              "RelativeToolTip": "OOP\\emp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\Github\\OOP-Paractice\\OOP\\Employee.cs",
+              "RelativeDocumentMoniker": "OOP\\Employee.cs",
+              "ToolTip": "D:\\Github\\OOP-Paractice\\OOP\\Employee.cs*",
+              "RelativeToolTip": "OOP\\Employee.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-25T19:04:35.511Z",
               "EditorCaption": ""
@@ -59,7 +59,7 @@
               "RelativeDocumentMoniker": "OOP\\Library.cs",
               "ToolTip": "D:\\Github\\OOP-Paractice\\OOP\\Library.cs",
               "RelativeToolTip": "OOP\\Library.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-25T19:04:27.718Z",
               "EditorCaption": ""
