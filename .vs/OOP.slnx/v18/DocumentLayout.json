@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "OOP\\Program.cs",
               "ToolTip": "D:\\Github\\OOP-Paractice\\OOP\\Program.cs",
               "RelativeToolTip": "OOP\\Program.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAAAF8AAABTAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-25T19:05:42.168Z",
               "IsPinned": true,
@@ -48,8 +48,7 @@
               "RelativeToolTip": "OOP\\Employee.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAkwBUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-25T19:04:35.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-25T19:04:35.511Z"
             },
             {
               "$type": "Document",
@@ -61,8 +60,7 @@
               "RelativeToolTip": "OOP\\Library.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-25T19:04:27.718Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-25T19:04:27.718Z"
             }
           ]
         }
