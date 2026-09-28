@@ -31,8 +31,8 @@ namespace OOP
         }
         internal void Showperson()
         {
-            Console.WriteLine("Name of Person is:" + name);
-            Console.WriteLine("Age of perosn is:" + age);
+            Console.WriteLine("Name of Perosn is:" + Name);
+            Console.WriteLine("Age of Person is:" + Age);
         }
     }
     internal class Teacher:Person
@@ -53,8 +53,10 @@ namespace OOP
                 }
             }
         }
-        internal void showStudent()
+        internal void Showteacher()
         {
+            //Console.WriteLine("Name of Teacher is:" + Name);
+            //Console.WriteLine("Age of Teacher is:" + Age);
             Console.WriteLine("Salary is:" + Salary);
         }
     }
@@ -66,7 +68,7 @@ namespace OOP
             get { return Marks; }
             set
             {
-                if(value > 0)
+                if(value >= 0 && value<=100)
                 {
                     Marks = value;
                 }
@@ -76,8 +78,10 @@ namespace OOP
                 }
             }
         }
-        internal void showStudent()
+        internal void Showstudent()
         {
+            //Console.WriteLine("Name of Student is:" + Name);
+            //Console.WriteLine("Age of perosn is:" + Age);
             Console.WriteLine("Marks are:" + Marks);
         }
     }

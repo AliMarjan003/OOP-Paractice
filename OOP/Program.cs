@@ -97,7 +97,15 @@ namespace OOP
             inheritstudent obj=new inheritstudent();
             obj.Name = "Ali";
             obj.Age = 20;
-            obj.showStudent();
+            obj.marks = 78;
+            obj.Showperson();
+            obj.Showstudent();
+            Teacher t = new Teacher();
+            t.Name = "Sir Ahmed";
+            t.Age = 40;
+            t.salary = 50000;
+            t.Showperson();
+            t.Showteacher();
         }
     }
 }
