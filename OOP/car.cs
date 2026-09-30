@@ -10,17 +10,20 @@ namespace OOP
         int speed;
         public string Brand
         {
-            get {  return brand; }
-            set { brand = value; }
+            get { return brand; }
+            set
+            {
+                brand = value;
+            }
         }
         public int Speed
         {
             get { return speed; }
             set
             {
-                if(value>0)
+                if (value>0)
                 {
-                    speed=value;
+                    speed = value;
                 }
                 else
                 {
@@ -30,54 +33,54 @@ namespace OOP
         }
         internal void Showvehicle()
         {
-            Console.WriteLine("Brand:" + Brand);
-            Console.WriteLine("Speed:" + Speed);
+            Console.WriteLine("Brand:"+Brand);
+            Console.WriteLine("Speed:"+Speed);
         }
     }
-    internal class car:Vehicle
+    internal class Car : Vehicle
     {
-        int doors;
+        int doors;   //to count doors of car
         public int Doors
         {
-            get { return doors; }
+            get { return  doors; }
             set
             {
-                if(value > 0)
+                if(value>0)
                 {
-                    doors=value;
+                    doors = value;
                 }
                 else
                 {
-                    Console.WriteLine("put at least 1 door");
+                    Console.WriteLine("car must have atleast one door");
                 }
             }
         }
-        internal void ShowCar()
+        internal void Showcar()
         {
-            Console.WriteLine("Doors are:"+Doors);
+            Console.WriteLine("Doors:" + Doors);
         }
     }
-    internal class Sportscar : car
+    internal class Sportcar : Car
     {
         int topspeed;
         public int Topspeed
         {
-            get{ return topspeed; }
+            get { return topspeed; }
             set
             {
-                if(value>=Speed)
+                if (value >= Speed)
                 {
-                    topspeed = value;
+                    topspeed= value;
                 }
                 else
                 {
-                    Console.WriteLine("Top speed cannot be less than normal speed");
+                    Console.WriteLine("Top Speed can't be less than normal speed");
                 }
             }
         }
-        internal void Showsportscar()
+        internal void Showsportcar()
         {
-            Console.WriteLine("Top speed:"+topspeed);
+            Console.WriteLine("Top speed:"+Topspeed);
         }
     }
 }

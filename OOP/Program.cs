@@ -106,18 +106,19 @@ namespace OOP
             //t.salary = 50000;
             //t.Showperson();
             //t.Showteacher();
-            Sportscar obj = new Sportscar();
+            Sportcar obj=new Sportcar();
             Console.WriteLine("Enter Brand of car:");
             obj.Brand = Console.ReadLine();
             Console.WriteLine("Enter Speed of car:");
-            obj.Speed= int.Parse(Console.ReadLine());
+            obj.Speed = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter Doors of car:");
             obj.Doors = int.Parse(Console.ReadLine());
-            Console.WriteLine("Enter Top Speed of car:");
+            Console.WriteLine("Enter Topspeed of car:");
             obj.Topspeed = int.Parse(Console.ReadLine());
+            
             obj.Showvehicle();
-            obj.ShowCar();
-            obj.Showsportscar();
+            obj.Showcar();
+            obj.Showsportcar();
         }
     }
 }
