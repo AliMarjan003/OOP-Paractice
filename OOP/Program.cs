@@ -94,18 +94,30 @@ namespace OOP
             //    }
             //}
             //Console.WriteLine("Number of employees having 50K+ salary:" + counter);
-            inheritstudent obj=new inheritstudent();
-            obj.Name = "Ali";
-            obj.Age = 20;
-            obj.marks = 78;
-            obj.Showperson();
-            obj.Showstudent();
-            Teacher t = new Teacher();
-            t.Name = "Sir Ahmed";
-            t.Age = 40;
-            t.salary = 50000;
-            t.Showperson();
-            t.Showteacher();
+            //inheritstudent obj=new inheritstudent();
+            //obj.Name = "Ali";
+            //obj.Age = 20;
+            //obj.marks = 78;
+            //obj.Showperson();
+            //obj.Showstudent();
+            //Teacher t = new Teacher();
+            //t.Name = "Sir Ahmed";
+            //t.Age = 40;
+            //t.salary = 50000;
+            //t.Showperson();
+            //t.Showteacher();
+            Sportscar obj = new Sportscar();
+            Console.WriteLine("Enter Brand of car:");
+            obj.Brand = Console.ReadLine();
+            Console.WriteLine("Enter Speed of car:");
+            obj.Speed= int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter Doors of car:");
+            obj.Doors = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter Top Speed of car:");
+            obj.Topspeed = int.Parse(Console.ReadLine());
+            obj.Showvehicle();
+            obj.ShowCar();
+            obj.Showsportscar();
         }
     }
 }
