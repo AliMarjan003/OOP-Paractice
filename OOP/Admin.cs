@@ -69,9 +69,6 @@ namespace OOP
             {
                 Salary = Salary + (Salary * 10 / 100);
             }
-        }
-        internal void showIncentive()
-        {
             Console.WriteLine("After Adding Incentive" + Salary);
         }
     }

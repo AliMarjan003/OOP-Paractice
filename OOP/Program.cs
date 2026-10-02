@@ -128,6 +128,9 @@ namespace OOP
             obj.Salary=int.Parse(Console.ReadLine());
             //Console.WriteLine("Enter id of Employee:");
             //obj.Id=int.Parse(Console.ReadLine());
+            obj.Showadmin();
+            obj.Showmanager();
+            obj.Addincentive();
         }
     }
 }
