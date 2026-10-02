@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Github\\OOP-Paractice\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|d:\\github\\oop-paractice\\oop\\inheritstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|solutionrelative:oop\\inheritstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|d:\\github\\oop-paractice\\oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|solutionrelative:oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|d:\\github\\oop-paractice\\oop\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|solutionrelative:oop\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|d:\\github\\oop-paractice\\oop\\inheritstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|solutionrelative:oop\\inheritstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|d:\\github\\oop-paractice\\oop\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,16 +30,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Github\\OOP-Paractice\\OOP\\Program.cs",
               "RelativeDocumentMoniker": "OOP\\Program.cs",
-              "ToolTip": "D:\\Github\\OOP-Paractice\\OOP\\Program.cs*",
-              "RelativeToolTip": "OOP\\Program.cs*",
+              "ToolTip": "D:\\Github\\OOP-Paractice\\OOP\\Program.cs",
+              "RelativeToolTip": "OOP\\Program.cs",
               "ViewState": "AgIAAGwAAAAAAAAAAAAAAHMAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-25T19:05:42.168Z",
@@ -48,7 +48,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "car.cs",
               "DocumentMoniker": "D:\\Github\\OOP-Paractice\\OOP\\car.cs",
               "RelativeDocumentMoniker": "OOP\\car.cs",
@@ -61,13 +61,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "inheritstudent.cs",
               "DocumentMoniker": "D:\\Github\\OOP-Paractice\\OOP\\inheritstudent.cs",
               "RelativeDocumentMoniker": "OOP\\inheritstudent.cs",
               "ToolTip": "D:\\Github\\OOP-Paractice\\OOP\\inheritstudent.cs",
               "RelativeToolTip": "OOP\\inheritstudent.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAmwFMAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAAFMAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-28T18:26:36.493Z",
               "EditorCaption": ""

@@ -106,19 +106,28 @@ namespace OOP
             //t.salary = 50000;
             //t.Showperson();
             //t.Showteacher();
-            Sportcar obj=new Sportcar();
-            Console.WriteLine("Enter Brand of car:");
-            obj.Brand = Console.ReadLine();
-            Console.WriteLine("Enter Speed of car:");
-            obj.Speed = int.Parse(Console.ReadLine());
-            Console.WriteLine("Enter Doors of car:");
-            obj.Doors = int.Parse(Console.ReadLine());
-            Console.WriteLine("Enter Topspeed of car:");
-            obj.Topspeed = int.Parse(Console.ReadLine());
+            //Sportcar obj=new Sportcar();
+            //Console.WriteLine("Enter Brand of car:");
+            //obj.Brand = Console.ReadLine();
+            //Console.WriteLine("Enter Speed of car:");
+            //obj.Speed = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter Doors of car:");
+            //obj.Doors = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter Topspeed of car:");
+            //obj.Topspeed = int.Parse(Console.ReadLine());
             
-            obj.Showvehicle();
-            obj.Showcar();
-            obj.Showsportcar();
+            //obj.Showvehicle();
+            //obj.Showcar();
+            //obj.Showsportcar();
+            employee obj= new employee();
+            Console.WriteLine("Enter id of Employee:");
+            obj.Id=int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter Name of Employee:");
+            obj.Name=Console.ReadLine();
+            Console.WriteLine("Enter Salary of Employee:");
+            obj.Salary=int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter id of Employee:");
+            //obj.Id=int.Parse(Console.ReadLine());
         }
     }
 }
