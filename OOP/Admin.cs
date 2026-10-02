@@ -30,8 +30,8 @@ namespace OOP
         }
         internal void Showadmin()
         {
+            Console.WriteLine("Id is:" + Id);
             Console.WriteLine("Name is:" + Name);
-            Console.WriteLine("Name is:" + Id);
         }
     }
     internal class Manager : Admin
@@ -69,7 +69,7 @@ namespace OOP
             {
                 Salary = Salary + (Salary * 10 / 100);
             }
-            Console.WriteLine("After Adding Incentive" + Salary);
+            Console.WriteLine("After Adding Incentive salary is:" + Salary);
         }
     }
 }

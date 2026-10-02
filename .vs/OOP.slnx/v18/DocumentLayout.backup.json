@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Github\\OOP-Paractice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|d:\\github\\oop-paractice\\oop\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|solutionrelative:oop\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|d:\\github\\oop-paractice\\oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|solutionrelative:oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|d:\\github\\oop-paractice\\oop\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|solutionrelative:oop\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|d:\\github\\oop-paractice\\oop\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,30 +34,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Github\\OOP-Paractice\\OOP\\Program.cs",
               "RelativeDocumentMoniker": "OOP\\Program.cs",
-              "ToolTip": "D:\\Github\\OOP-Paractice\\OOP\\Program.cs",
-              "RelativeToolTip": "OOP\\Program.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAowIEAAAAzAAAAAAAAAA==",
+              "ToolTip": "D:\\Github\\OOP-Paractice\\OOP\\Program.cs*",
+              "RelativeToolTip": "OOP\\Program.cs*",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAIQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-25T19:05:42.168Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Admin.cs",
               "DocumentMoniker": "D:\\Github\\OOP-Paractice\\OOP\\Admin.cs",
               "RelativeDocumentMoniker": "OOP\\Admin.cs",
-              "ToolTip": "D:\\Github\\OOP-Paractice\\OOP\\Admin.cs",
-              "RelativeToolTip": "OOP\\Admin.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAiwEoAAABBAAAAAAAAAA==",
+              "ToolTip": "D:\\Github\\OOP-Paractice\\OOP\\Admin.cs*",
+              "RelativeToolTip": "OOP\\Admin.cs*",
+              "ViewState": "AgIAADsAAAAAAAAAAAAmwEgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-02T16:32:56.485Z",
               "EditorCaption": ""
