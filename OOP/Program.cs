@@ -119,18 +119,25 @@ namespace OOP
             //obj.Showvehicle();
             //obj.Showcar();
             //obj.Showsportcar();
-            employee obj= new employee();
-            Console.WriteLine("Enter id of Employee:");
-            obj.Id=int.Parse(Console.ReadLine());
-            Console.WriteLine("Enter Name of Employee:");
-            obj.Name=Console.ReadLine();
-            Console.WriteLine("Enter Salary of Employee:");
-            obj.Salary=int.Parse(Console.ReadLine());
+            //employee obj= new employee();
             //Console.WriteLine("Enter id of Employee:");
             //obj.Id=int.Parse(Console.ReadLine());
-            obj.Showadmin();
-            obj.Showmanager();
-            obj.Addincentive();
+            //Console.WriteLine("Enter Name of Employee:");
+            //obj.Name=Console.ReadLine();
+            //Console.WriteLine("Enter Salary of Employee:");
+            //obj.Salary=int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter id of Employee:");
+            //obj.Id=int.Parse(Console.ReadLine());
+            //obj.Showadmin();
+            //obj.Showmanager();
+            //obj.Addincentive();
+            Creditcardpayment obj=new Creditcardpayment();
+            Console.WriteLine("Enter Card number:");
+            obj.Cardnumber = Console.ReadLine();
+            Console.WriteLine("Enter Amount:");
+            obj.Amount =int.Parse( Console.ReadLine());
+            obj.Showreceipt();
+            obj.Processpayment();
         }
     }
 }
