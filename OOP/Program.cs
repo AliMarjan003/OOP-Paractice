@@ -138,6 +138,11 @@ namespace OOP
             obj.Amount =int.Parse( Console.ReadLine());
             obj.Showreceipt();
             obj.Processpayment();
+            Cashpayment obj1=new Cashpayment();
+            Console.WriteLine("Enter Amount:");
+            obj.Amount = int.Parse(Console.ReadLine());
+            obj.Showreceipt();
+            obj.Processpayment();
         }
     }
 }

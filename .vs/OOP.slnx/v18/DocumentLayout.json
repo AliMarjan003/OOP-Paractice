@@ -46,9 +46,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Github\\OOP-Paractice\\OOP\\Program.cs",
               "RelativeDocumentMoniker": "OOP\\Program.cs",
-              "ToolTip": "D:\\Github\\OOP-Paractice\\OOP\\Program.cs",
-              "RelativeToolTip": "OOP\\Program.cs",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAAAHcAAAAcAAAAAAAAAA==",
+              "ToolTip": "D:\\Github\\OOP-Paractice\\OOP\\Program.cs*",
+              "RelativeToolTip": "OOP\\Program.cs*",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAAJAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-25T19:05:42.168Z",
               "IsPinned": true,
@@ -62,9 +62,10 @@
               "RelativeDocumentMoniker": "OOP\\Payment.cs",
               "ToolTip": "D:\\Github\\OOP-Paractice\\OOP\\Payment.cs",
               "RelativeToolTip": "OOP\\Payment.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAwwEIAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAwwCQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-03T16:35:30.804Z"
+              "WhenOpened": "2026-10-03T16:35:30.804Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
