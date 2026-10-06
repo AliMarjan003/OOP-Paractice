@@ -131,18 +131,24 @@ namespace OOP
             //obj.Showadmin();
             //obj.Showmanager();
             //obj.Addincentive();
-            Creditcardpayment obj=new Creditcardpayment();
-            Console.WriteLine("Enter Card number:");
-            obj.Cardnumber = Console.ReadLine();
-            Console.WriteLine("Enter Amount:");
-            obj.Amount =int.Parse( Console.ReadLine());
-            obj.Showreceipt();
-            obj.Processpayment();
-            Cashpayment obj1=new Cashpayment();
-            Console.WriteLine("Enter Amount:");
-            obj1.Amount = int.Parse(Console.ReadLine());
-            obj1.Showreceipt();
-            obj1.Processpayment();
+            //Creditcardpayment obj=new Creditcardpayment();
+            //Console.WriteLine("Enter Card number:");
+            //obj.Cardnumber = Console.ReadLine();
+            //Console.WriteLine("Enter Amount:");
+            //obj.Amount =int.Parse( Console.ReadLine());
+            //obj.Showreceipt();
+            //obj.Processpayment();
+            //Cashpayment obj1=new Cashpayment();
+            //Console.WriteLine("Enter Amount:");
+            //obj1.Amount = int.Parse(Console.ReadLine());
+            //obj1.Showreceipt();
+            //obj1.Processpayment();
+            Vehicle2 v = new Bike();
+            v.showinfo();
+            v.Honk();
+            Bike bike = new Bike();
+            bike.showinfo();
+            bike.Honk();
         }
     }
 }
