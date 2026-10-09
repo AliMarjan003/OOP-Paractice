@@ -140,9 +140,9 @@ namespace OOP
             obj.Processpayment();
             Cashpayment obj1 = new Cashpayment();
             Console.WriteLine("Enter Amount:");
-            obj.Amount = double.Parse(Console.ReadLine());
-            obj.Showreceipt();
-            obj.Processpayment();
+            obj1.Amount = double.Parse(Console.ReadLine());
+            obj1.Showreceipt();
+            obj1.Processpayment();
         }
     }
 }
