@@ -131,7 +131,18 @@ namespace OOP
             //obj.Showadmin();
             //obj.Showmanager();
             //obj.Addincentive();
-            
+            Creditcardpayment obj=new Creditcardpayment();
+            Console.WriteLine("Enter card number:");
+            obj.Cardnumber = Console.ReadLine();
+            Console.WriteLine("Enter Amount:");
+            obj.Amount = double.Parse(Console.ReadLine());
+            obj.Showreceipt();
+            obj.Processpayment();
+            Cashpayment obj1 = new Cashpayment();
+            Console.WriteLine("Enter Amount:");
+            obj.Amount = double.Parse(Console.ReadLine());
+            obj.Showreceipt();
+            obj.Processpayment();
         }
     }
 }
