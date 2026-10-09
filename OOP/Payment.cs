@@ -61,7 +61,7 @@ namespace OOP
         }
         internal override void Processpayment()
         {
-            Console.WriteLine("Cash Payment of"+ Amount + " Received");
+            Console.WriteLine("Cash Payment of "+ Amount + " Received");
         }
     }
 }
