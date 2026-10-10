@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Github\\OOP-Paractice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|d:\\github\\oop-paractice\\oop\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|solutionrelative:oop\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|d:\\github\\oop-paractice\\oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|solutionrelative:oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|d:\\github\\oop-paractice\\oop\\exception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|solutionrelative:oop\\exception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|d:\\github\\oop-paractice\\oop\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|solutionrelative:oop\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|d:\\github\\oop-paractice\\oop\\vehicle2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,17 +46,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Github\\OOP-Paractice\\OOP\\Program.cs",
               "RelativeDocumentMoniker": "OOP\\Program.cs",
-              "ToolTip": "D:\\Github\\OOP-Paractice\\OOP\\Program.cs",
-              "RelativeToolTip": "OOP\\Program.cs",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAAAIsAAAAhAAAAAAAAAA==",
+              "ToolTip": "D:\\Github\\OOP-Paractice\\OOP\\Program.cs*",
+              "RelativeToolTip": "OOP\\Program.cs*",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAAAL4AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-25T19:05:42.168Z",
               "IsPinned": true,
@@ -60,7 +64,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Exception.cs",
+              "DocumentMoniker": "D:\\Github\\OOP-Paractice\\OOP\\Exception.cs",
+              "RelativeDocumentMoniker": "OOP\\Exception.cs",
+              "ToolTip": "D:\\Github\\OOP-Paractice\\OOP\\Exception.cs*",
+              "RelativeToolTip": "OOP\\Exception.cs*",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T16:42:25.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Payment.cs",
               "DocumentMoniker": "D:\\Github\\OOP-Paractice\\OOP\\Payment.cs",
               "RelativeDocumentMoniker": "OOP\\Payment.cs",
@@ -73,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Vehicle2.cs",
               "DocumentMoniker": "D:\\Github\\OOP-Paractice\\OOP\\Vehicle2.cs",
               "RelativeDocumentMoniker": "OOP\\Vehicle2.cs",
@@ -81,12 +98,11 @@
               "RelativeToolTip": "OOP\\Vehicle2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T06:23:29.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-06T06:23:29.419Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Admin.cs",
               "DocumentMoniker": "D:\\Github\\OOP-Paractice\\OOP\\Admin.cs",
               "RelativeDocumentMoniker": "OOP\\Admin.cs",
@@ -94,12 +110,11 @@
               "RelativeToolTip": "OOP\\Admin.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAwwEcAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-02T16:32:56.485Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-02T16:32:56.485Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "car.cs",
               "DocumentMoniker": "D:\\Github\\OOP-Paractice\\OOP\\car.cs",
               "RelativeDocumentMoniker": "OOP\\car.cs",
@@ -107,12 +122,11 @@
               "RelativeToolTip": "OOP\\car.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAowFIAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T16:27:57.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-30T16:27:57.794Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "inheritstudent.cs",
               "DocumentMoniker": "D:\\Github\\OOP-Paractice\\OOP\\inheritstudent.cs",
               "RelativeDocumentMoniker": "OOP\\inheritstudent.cs",
@@ -124,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Employee.cs",
               "DocumentMoniker": "D:\\Github\\OOP-Paractice\\OOP\\Employee.cs",
               "RelativeDocumentMoniker": "OOP\\Employee.cs",
@@ -132,12 +146,11 @@
               "RelativeToolTip": "OOP\\Employee.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAiwBUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-25T19:04:35.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-25T19:04:35.511Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Library.cs",
               "DocumentMoniker": "D:\\Github\\OOP-Paractice\\OOP\\Library.cs",
               "RelativeDocumentMoniker": "OOP\\Library.cs",

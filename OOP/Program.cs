@@ -145,24 +145,30 @@ namespace OOP
             //obj1.Showreceipt();
             //obj1.Processpayment();
             Bankaccount obj=new Bankaccount();
-            double amount, balance=45000;
-            int choice;
-            choice=int.Parse(Console.ReadLine());
+            double amount;
+            
+            int choice=0;
             while(choice!=3)
             {
                 Console.WriteLine("Do You want to Deposit or withdraw money?");
                 try
                 {
-
+                choice=int.Parse(Console.ReadLine());
                     if (choice == 1)
                     {
+                        Console.WriteLine("Enter amount:");
                         amount = Convert.ToDouble(Console.ReadLine());
                         obj.Deposit(amount);
                     }
                     else if (choice == 2)
                     {
+                        Console.WriteLine("Enter amount:");
                         amount = Convert.ToDouble(Console.ReadLine());
                         obj.Withdraw(amount);
+                    }
+                    else if (choice != 3) 
+                    {
+                        Console.WriteLine("Invalid choice");
                     }
                 }
                 catch (FormatException ex)
@@ -183,13 +189,10 @@ namespace OOP
                 }
                 finally
                 {
-                    Console.WriteLine("Your balance is:"+balance);
+                    Console.WriteLine("Your balance is:"+obj.Balance);
                 }
             }
-            if(choice==3)
-            {
                 Console.WriteLine("exiting........");
-            }
         }
     }
 }
