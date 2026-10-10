@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Reflection.Metadata;
 namespace OOP
 {
     class Program
@@ -131,18 +132,64 @@ namespace OOP
             //obj.Showadmin();
             //obj.Showmanager();
             //obj.Addincentive();
-            Creditcardpayment obj=new Creditcardpayment();
-            Console.WriteLine("Enter card number:");
-            obj.Cardnumber = Console.ReadLine();
-            Console.WriteLine("Enter Amount:");
-            obj.Amount = double.Parse(Console.ReadLine());
-            obj.Showreceipt();
-            obj.Processpayment();
-            Cashpayment obj1 = new Cashpayment();
-            Console.WriteLine("Enter Amount:");
-            obj1.Amount = double.Parse(Console.ReadLine());
-            obj1.Showreceipt();
-            obj1.Processpayment();
+            //Creditcardpayment obj=new Creditcardpayment();
+            //Console.WriteLine("Enter card number:");
+            //obj.Cardnumber = Console.ReadLine();
+            //Console.WriteLine("Enter Amount:");
+            //obj.Amount = double.Parse(Console.ReadLine());
+            //obj.Showreceipt();
+            //obj.Processpayment();
+            //Cashpayment obj1 = new Cashpayment();
+            //Console.WriteLine("Enter Amount:");
+            //obj1.Amount = double.Parse(Console.ReadLine());
+            //obj1.Showreceipt();
+            //obj1.Processpayment();
+            Bankaccount obj=new Bankaccount();
+            double amount, balance=45000;
+            int choice;
+            choice=int.Parse(Console.ReadLine());
+            while(choice!=3)
+            {
+                Console.WriteLine("Do You want to Deposit or withdraw money?");
+                try
+                {
+
+                    if (choice == 1)
+                    {
+                        amount = Convert.ToDouble(Console.ReadLine());
+                        obj.Deposit(amount);
+                    }
+                    else if (choice == 2)
+                    {
+                        amount = Convert.ToDouble(Console.ReadLine());
+                        obj.Withdraw(amount);
+                    }
+                }
+                catch (FormatException ex)
+                {
+                    Console.WriteLine("Please enter numbers only");
+                }
+                catch (ArgumentException ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+                catch (InvalidOperationException ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+                catch (Exception ex) 
+                {
+                    Console.WriteLine(ex.Message);
+                }
+                finally
+                {
+                    Console.WriteLine("Your balance is:"+balance);
+                }
+            }
+            if(choice==3)
+            {
+                Console.WriteLine("exiting........");
+            }
         }
     }
 }
