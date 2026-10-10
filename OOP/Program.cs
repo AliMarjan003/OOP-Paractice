@@ -150,7 +150,7 @@ namespace OOP
             int choice=0;
             while(choice!=3)
             {
-                Console.WriteLine("Do You want to Deposit or withdraw money?");
+                Console.WriteLine("1. Deposit  2. Withdraw  3. Exit");
                 try
                 {
                 choice=int.Parse(Console.ReadLine());
