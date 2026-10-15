@@ -15,7 +15,10 @@ namespace OOP
         {
             if (amount <= 0)
             {
-                throw new ArgumentException("Deposit amount more than 0 worth");
+                throw new ArgumentException("Deposit amount must be more than 0!");
+                {
+
+                }
             }
             else
             {
@@ -26,15 +29,15 @@ namespace OOP
         {
             if (amount <= 0)
             {
-                throw new ArgumentException("withdraw amount more than 0 woth");
+                throw new ArgumentException("With amount more than 0!");
             }
             else if (amount > balance)
             {
-                throw new InvalidOperationException("Insufficient balance");
+                throw new ArgumentException("Insufficient Balance");
             }
             else
             {
-                balance -= amount;
+                balance-=amount;
             }
         }
     }

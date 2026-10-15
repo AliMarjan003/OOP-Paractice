@@ -145,57 +145,7 @@ namespace OOP
             //obj1.Amount = double.Parse(Console.ReadLine());
             //obj1.Showreceipt();
             //obj1.Processpayment();
-            //Bankaccount obj=new Bankaccount();
-            //double amount;
-
-            //int choice=0;
-            //while(choice!=3)
-            //{
-            //    Console.WriteLine("1. Deposit  2. Withdraw  3. Exit");
-            //    try
-            //    {
-            //    choice=int.Parse(Console.ReadLine());
-            //        if (choice == 1)
-            //        {
-            //            Console.WriteLine("Enter amount:");
-            //            amount = Convert.ToDouble(Console.ReadLine());
-            //            obj.Deposit(amount);
-            //        }
-            //        else if (choice == 2)
-            //        {
-            //            Console.WriteLine("Enter amount:");
-            //            amount = Convert.ToDouble(Console.ReadLine());
-            //            obj.Withdraw(amount);
-            //        }
-            //        else if (choice != 3) 
-            //        {
-            //            Console.WriteLine("Invalid choice");
-            //        }
-            //    }
-            //    catch (FormatException ex)
-            //    {
-            //        Console.WriteLine("Please enter numbers only");
-            //    }
-            //    catch (ArgumentException ex)
-            //    {
-            //        Console.WriteLine(ex.Message);
-            //    }
-            //    catch (InvalidOperationException ex)
-            //    {
-            //        Console.WriteLine(ex.Message);
-            //    }
-            //    catch (Exception ex) 
-            //    {
-            //        Console.WriteLine(ex.Message);
-            //    }
-            //    finally
-            //    {
-            //        Console.WriteLine("Your balance is:"+obj.Balance);
-            //    }
-            //}
-            //    Console.WriteLine("exiting........");
             //Marksmanager obj = new Marksmanager();
-
             //int choice=0;
             //while (choice != 4)
             //{
@@ -255,42 +205,92 @@ namespace OOP
             //        Console.WriteLine("Operation complete");
             //    }
             //}
-
             //Console.WriteLine("exiting........");
-            Student[] students = new Student[3];
-            int choice=0;
-            while(choice != 3)
+            //Student[] students = new Student[3];
+            //int choice=0;
+            //while(choice != 3)
+            //{
+            //    try
+            //    {
+            //        Console.WriteLine("1. Register  2. Show  3. Exit");
+            //        choice = int.Parse(Console.ReadLine());
+            //        if (choice == 1)
+            //        {
+            //            Console.Write("Enter index: ");
+            //            int index = int.Parse(Console.ReadLine());
+
+            //            Console.Write("Enter name: ");
+            //            string name = Console.ReadLine();
+
+            //            Console.Write("Enter age: ");
+            //            int age = int.Parse(Console.ReadLine());
+
+            //            Console.Write("Enter marks: ");
+            //            int marks = int.Parse(Console.ReadLine());
+
+            //            Student s = new Student();
+            //            s.Name = name;
+            //            s.Age = age;
+            //            s.Marks = marks;
+
+            //            students[index] = s;
+            //        }
+            //        else if (choice == 2)
+            //        {
+            //            Console.WriteLine("Enter index:");
+            //            int index=int.Parse(Console.ReadLine());
+            //            students[index].Show();
+            //        }
+            //        else if(choice != 3)
+            //        {
+            //            Console.WriteLine("Invalid choice");
+            //        }
+            //    }
+            //    catch (FormatException) 
+            //    {
+            //        Console.WriteLine("Please enter numbers only");
+            //    }
+            //    catch (ArgumentOutOfRangeException)
+            //    {
+            //        Console.WriteLine("Marks must be between 0 and 100");
+            //    }
+            //    catch (IndexOutOfRangeException)
+            //    {
+            //        Console.WriteLine("Invalid index, valid range is 0 to 2");
+            //    }
+            //    catch (NullReferenceException)
+            //    {
+            //        Console.WriteLine("No student registered at this index");
+            //    }
+            //    catch(Exception ex)
+            //    {
+            //        Console.WriteLine("Unexpected error: " + ex.Message);
+            //    }
+            //    finally
+            //    {
+            //        Console.WriteLine("Done");
+            //    }
+            //}
+            Bankaccount obj=new Bankaccount();
+            double amount;
+            int choice = 0;
+            while (choice != 3)
             {
                 try
                 {
-                    Console.WriteLine("1. Register  2. Show  3. Exit");
+                    Console.WriteLine("1. Deposit  2. Withdraw  3. Exit");
                     choice = int.Parse(Console.ReadLine());
-                    if (choice == 1)
+                    if(choice == 1)
                     {
-                        Console.Write("Enter index: ");
-                        int index = int.Parse(Console.ReadLine());
-
-                        Console.Write("Enter name: ");
-                        string name = Console.ReadLine();
-
-                        Console.Write("Enter age: ");
-                        int age = int.Parse(Console.ReadLine());
-
-                        Console.Write("Enter marks: ");
-                        int marks = int.Parse(Console.ReadLine());
-
-                        Student s = new Student();
-                        s.Name = name;
-                        s.Age = age;
-                        s.Marks = marks;
-
-                        students[index] = s;
+                        Console.WriteLine("Enter amount:");
+                        amount = double.Parse(Console.ReadLine());
+                        obj.Deposit(amount);
                     }
                     else if (choice == 2)
                     {
-                        Console.WriteLine("Enter index:");
-                        int index=int.Parse(Console.ReadLine());
-                        students[index].Show();
+                        Console.WriteLine("Enter amount:");
+                        amount = double.Parse(Console.ReadLine());
+                        obj.Withdraw(amount);
                     }
                     else if(choice != 3)
                     {
@@ -301,27 +301,24 @@ namespace OOP
                 {
                     Console.WriteLine("Please enter numbers only");
                 }
-                catch (ArgumentOutOfRangeException)
+                catch(ArgumentException ex)
                 {
-                    Console.WriteLine("Marks must be between 0 and 100");
+                    Console.WriteLine(ex.Message);
                 }
-                catch (IndexOutOfRangeException)
+                catch(InvalidOperationException ex)
                 {
-                    Console.WriteLine("Invalid index, valid range is 0 to 2");
-                }
-                catch (NullReferenceException)
-                {
-                    Console.WriteLine("No student registered at this index");
+                    Console.WriteLine(ex.Message);
                 }
                 catch(Exception ex)
                 {
-                    Console.WriteLine("Unexpected error: " + ex.Message);
+                    Console.WriteLine(ex.Message);
                 }
                 finally
                 {
-                    Console.WriteLine("Done");
+                    Console.WriteLine("Your balance is:"+obj.Balance);
                 }
             }
+            Console.WriteLine("Exiting!");
         }
     }
 }
