@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "OOP\\Program.cs",
               "ToolTip": "D:\\Github\\OOP-Paractice\\OOP\\Program.cs",
               "RelativeToolTip": "OOP\\Program.cs",
-              "ViewState": "AgIAABYBAAAAAAAAAAAqwCQBAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAA0BAAAAAAAAAAAqwCQBAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-25T19:05:42.168Z",
               "IsPinned": true,
@@ -64,8 +64,7 @@
               "RelativeToolTip": "OOP\\Classroom.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-15T05:52:49.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-15T05:52:49.956Z"
             },
             {
               "$type": "Document",
@@ -77,8 +76,7 @@
               "RelativeToolTip": "OOP\\Student.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAkwDsAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-15T05:46:53.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-15T05:46:53.584Z"
             },
             {
               "$type": "Document",
@@ -90,8 +88,7 @@
               "RelativeToolTip": "OOP\\Marksmanager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-14T05:04:03.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-14T05:04:03.023Z"
             },
             {
               "$type": "Document",
@@ -103,8 +100,7 @@
               "RelativeToolTip": "OOP\\Exception.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-10T16:42:25.105Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-10T16:42:25.105Z"
             },
             {
               "$type": "Document",
@@ -116,8 +112,7 @@
               "RelativeToolTip": "OOP\\Payment.cs",
               "ViewState": "AgIAAD0AAAAAAAAAAAAcwEIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-03T16:35:30.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-03T16:35:30.804Z"
             },
             {
               "$type": "Document",
@@ -129,8 +124,7 @@
               "RelativeToolTip": "OOP\\Vehicle2.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwBUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T06:23:29.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-06T06:23:29.419Z"
             }
           ]
         }
