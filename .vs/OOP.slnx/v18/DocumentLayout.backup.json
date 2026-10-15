@@ -47,8 +47,7 @@
               "ViewState": "AgIAAAQAAAAAAAAAAAA1wJgAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-25T19:05:42.168Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -58,7 +57,7 @@
               "RelativeDocumentMoniker": "OOP\\Marksmanager.cs",
               "ToolTip": "D:\\Github\\OOP-Paractice\\OOP\\Marksmanager.cs",
               "RelativeToolTip": "OOP\\Marksmanager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-14T05:04:03.023Z",
               "EditorCaption": ""
@@ -85,8 +84,7 @@
               "RelativeToolTip": "OOP\\Payment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-03T16:35:30.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-03T16:35:30.804Z"
             },
             {
               "$type": "Document",
@@ -98,8 +96,7 @@
               "RelativeToolTip": "OOP\\Vehicle2.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T06:23:29.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-06T06:23:29.419Z"
             },
             {
               "$type": "Document",
@@ -111,8 +108,7 @@
               "RelativeToolTip": "OOP\\Admin.cs",
               "ViewState": "AgIAADwAAAAAAAAAAAAIwEcAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-02T16:32:56.485Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-02T16:32:56.485Z"
             }
           ]
         }

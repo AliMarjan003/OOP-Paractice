@@ -16,9 +16,14 @@ namespace OOP
             marks[index] = value;
         }
         internal int Getmarks(int index) { return marks[index]; }
-        internal void Average(int subjectcount)
+        internal int Average(int subjectCount)
         {
-
+            int total = 0;
+            for (int i = 0; i < marks.Length; i++)
+            {
+                total += marks[i];
+            }
+            return total / subjectCount;
         }
     }
 }
