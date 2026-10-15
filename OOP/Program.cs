@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Reflection.Metadata;
+using System.Xml.Serialization;
 namespace OOP
 {
     class Program
@@ -193,69 +194,134 @@ namespace OOP
             //    }
             //}
             //    Console.WriteLine("exiting........");
-            Marksmanager obj = new Marksmanager();
+            //Marksmanager obj = new Marksmanager();
 
+            //int choice=0;
+            //while (choice != 4)
+            //{
+            //    try
+            //    {
+            //        Console.WriteLine("1. Set marks  2. View marks  3. Average  4. Exit");
+            //        choice = int.Parse(Console.ReadLine());
+
+            //        if (choice == 1)
+            //        {
+            //            Console.Write("Enter index: ");
+            //            int index = int.Parse(Console.ReadLine());
+            //            Console.Write("Enter marks: ");
+            //            int value = int.Parse(Console.ReadLine());
+            //            obj.Setmarks(index, value);
+            //            Console.WriteLine("Marks saved");
+            //        }
+            //        else if (choice == 2)
+            //        {
+            //            Console.Write("Enter index: ");
+            //            int index = int.Parse(Console.ReadLine());
+            //            Console.WriteLine("Marks: " + obj.Getmarks(index));
+            //        }
+            //        else if (choice == 3)
+            //        {
+            //            Console.Write("Enter subject count: ");
+            //            int count = int.Parse(Console.ReadLine());
+            //            Console.WriteLine("Average: " + obj.Average(count));
+            //        }
+            //        else if (choice != 4)
+            //        {
+            //            Console.WriteLine("Invalid choice");
+            //        }
+            //    }
+            //    catch (FormatException)
+            //    {
+            //        Console.WriteLine("Please enter numbers only");
+            //    }
+            //    catch (ArgumentException ex)
+            //    {
+            //        Console.WriteLine(ex.Message);
+            //    }
+            //    catch (IndexOutOfRangeException)
+            //    {
+            //        Console.WriteLine("Invalid index, valid range is 0 to 4");
+            //    }
+            //    catch (DivideByZeroException)
+            //    {
+            //        Console.WriteLine("Subject count cannot be 0");
+            //    }
+            //    catch (Exception ex)
+            //    {
+            //        Console.WriteLine("Unexpected error: " + ex.Message);
+            //    }
+            //    finally
+            //    {
+            //        Console.WriteLine("Operation complete");
+            //    }
+            //}
+
+            //Console.WriteLine("exiting........");
+            Student[] students = new Student[3];
             int choice=0;
-            while (choice != 4)
+            while(choice != 3)
             {
                 try
                 {
-                    Console.WriteLine("1. Set marks  2. View marks  3. Average  4. Exit");
+                    Console.WriteLine("1. Register  2. Show  3. Exit");
                     choice = int.Parse(Console.ReadLine());
-
                     if (choice == 1)
                     {
                         Console.Write("Enter index: ");
                         int index = int.Parse(Console.ReadLine());
+
+                        Console.Write("Enter name: ");
+                        string name = Console.ReadLine();
+
+                        Console.Write("Enter age: ");
+                        int age = int.Parse(Console.ReadLine());
+
                         Console.Write("Enter marks: ");
-                        int value = int.Parse(Console.ReadLine());
-                        obj.Setmarks(index, value);
-                        Console.WriteLine("Marks saved");
+                        int marks = int.Parse(Console.ReadLine());
+
+                        Student s = new Student();
+                        s.Name = name;
+                        s.Age = age;
+                        s.Marks = marks;
+
+                        students[index] = s;
                     }
                     else if (choice == 2)
                     {
-                        Console.Write("Enter index: ");
-                        int index = int.Parse(Console.ReadLine());
-                        Console.WriteLine("Marks: " + obj.Getmarks(index));
+                        Console.WriteLine("Enter index:");
+                        int index=int.Parse(Console.ReadLine());
+                        students[index].Show();
                     }
-                    else if (choice == 3)
-                    {
-                        Console.Write("Enter subject count: ");
-                        int count = int.Parse(Console.ReadLine());
-                        Console.WriteLine("Average: " + obj.Average(count));
-                    }
-                    else if (choice != 4)
+                    else if(choice != 3)
                     {
                         Console.WriteLine("Invalid choice");
                     }
                 }
-                catch (FormatException)
+                catch (FormatException) 
                 {
                     Console.WriteLine("Please enter numbers only");
                 }
-                catch (ArgumentException ex)
+                catch (ArgumentOutOfRangeException)
                 {
-                    Console.WriteLine(ex.Message);
+                    Console.WriteLine("Marks must be between 0 and 100");
                 }
                 catch (IndexOutOfRangeException)
                 {
-                    Console.WriteLine("Invalid index, valid range is 0 to 4");
+                    Console.WriteLine("Invalid index, valid range is 0 to 2");
                 }
-                catch (DivideByZeroException)
+                catch (NullReferenceException)
                 {
-                    Console.WriteLine("Subject count cannot be 0");
+                    Console.WriteLine("No student registered at this index");
                 }
-                catch (Exception ex)
+                catch(Exception ex)
                 {
                     Console.WriteLine("Unexpected error: " + ex.Message);
                 }
                 finally
                 {
-                    Console.WriteLine("Operation complete");
+                    Console.WriteLine("Done");
                 }
             }
-
-            Console.WriteLine("exiting........");
         }
     }
 }
