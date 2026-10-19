@@ -271,54 +271,55 @@ namespace OOP
             //        Console.WriteLine("Done");
             //    }
             //}
-            Bankaccount obj=new Bankaccount();
-            double amount;
-            int choice = 0;
-            while (choice != 3)
-            {
-                try
-                {
-                    Console.WriteLine("1. Deposit  2. Withdraw  3. Exit");
-                    choice = int.Parse(Console.ReadLine());
-                    if(choice == 1)
-                    {
-                        Console.WriteLine("Enter amount:");
-                        amount = double.Parse(Console.ReadLine());
-                        obj.Deposit(amount);
-                    }
-                    else if (choice == 2)
-                    {
-                        Console.WriteLine("Enter amount:");
-                        amount = double.Parse(Console.ReadLine());
-                        obj.Withdraw(amount);
-                    }
-                    else if(choice != 3)
-                    {
-                        Console.WriteLine("Invalid choice");
-                    }
-                }
-                catch (FormatException) 
-                {
-                    Console.WriteLine("Please enter numbers only");
-                }
-                catch(ArgumentException ex)
-                {
-                    Console.WriteLine(ex.Message);
-                }
-                catch(InvalidOperationException ex)
-                {
-                    Console.WriteLine(ex.Message);
-                }
-                catch(Exception ex)
-                {
-                    Console.WriteLine(ex.Message);
-                }
-                finally
-                {
-                    Console.WriteLine("Your balance is:"+obj.Balance);
-                }
-            }
-            Console.WriteLine("Exiting!");
+            //Bankaccount obj=new Bankaccount();
+            //double amount;
+            //int choice = 0;
+            //while (choice != 3)
+            //{
+            //    try
+            //    {
+            //        Console.WriteLine("1. Deposit  2. Withdraw  3. Exit");
+            //        choice = int.Parse(Console.ReadLine());
+            //        if(choice == 1)
+            //        {
+            //            Console.WriteLine("Enter amount:");
+            //            amount = double.Parse(Console.ReadLine());
+            //            obj.Deposit(amount);
+            //        }
+            //        else if (choice == 2)
+            //        {
+            //            Console.WriteLine("Enter amount:");
+            //            amount = double.Parse(Console.ReadLine());
+            //            obj.Withdraw(amount);
+            //        }
+            //        else if(choice != 3)
+            //        {
+            //            Console.WriteLine("Invalid choice");
+            //        }
+            //    }
+            //    catch (FormatException) 
+            //    {
+            //        Console.WriteLine("Please enter numbers only");
+            //    }
+            //    catch(ArgumentException ex)
+            //    {
+            //        Console.WriteLine(ex.Message);
+            //    }
+            //    catch(InvalidOperationException ex)
+            //    {
+            //        Console.WriteLine(ex.Message);
+            //    }
+            //    catch(Exception ex)
+            //    {
+            //        Console.WriteLine(ex.Message);
+            //    }
+            //    finally
+            //    {
+            //        Console.WriteLine("Your balance is:"+obj.Balance);
+            //    }
+            //}
+            //Console.WriteLine("Exiting!");
+
         }
     }
 }
