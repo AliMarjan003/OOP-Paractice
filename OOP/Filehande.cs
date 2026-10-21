@@ -9,29 +9,31 @@ namespace OOP
     {
         internal void filec()
         {
+            string data = "student.txt";
+            //string data = "check.txt",name,city;
+            //Console.WriteLine("Enter your name:");
+            //name = Console.ReadLine();
+            //Console.WriteLine("Enter your city name:");
+            //city = Console.ReadLine();
+            //File.WriteAllText(data, "name is:"+ name+ " \n");
+            //File.AppendAllText(data, city);
+            //Console.WriteLine(File.ReadAllText(data));
 
-            string data = "check.txt",name,city;
-            Console.WriteLine("Enter your name:");
-            name = Console.ReadLine();
-            Console.WriteLine("Enter your city name:");
-            city = Console.ReadLine();
-            File.WriteAllText(data, " name is:"+ name+ " \n");
-            File.AppendAllText(data, city);
-            Console.WriteLine(File.ReadAllText(data));
 
 
-
-            //    File.WriteAllText(data, "Ali Marjan");
+            File.WriteAllText(data, "Ali Marjan\n");
+            File.AppendAllText(data, "Ahmed\n");
+            File.AppendAllText(data, "Iman\n");
             //    File.AppendAllText(data, " Welcome");
-            //    string? data2;
-            //    //string data2=File.ReadAllText(data);
-            //    using(StreamReader sr = new StreamReader(data))
-            //    {
-            //        while((data2 = sr.ReadLine()) != null)
-            //        {
-            //            Console.WriteLine(data2);
-            //        }
-            //    }
+            string? data2;
+            //string data2=File.ReadAllText(data);
+            using (StreamReader sr = new StreamReader(data))
+                {
+                    while((data2 = sr.ReadLine()) != null)
+                    {
+                        Console.WriteLine(data2);
+                    }
+                }
         }
     }
 }
