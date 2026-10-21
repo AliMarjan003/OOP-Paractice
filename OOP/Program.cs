@@ -319,8 +319,8 @@ namespace OOP
             //    }
             //}
             //Console.WriteLine("Exiting!");
-            filetext obj= new filetext();
-            obj.check();
+            Filehande obj= new Filehande();
+            obj.filec();
         }
     }
 }
