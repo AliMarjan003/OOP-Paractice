@@ -41,7 +41,7 @@ namespace OOP
             }
             else
             {
-                Console.WriteLine("Invalid choice");
+                Console.WriteLine("File can't be delted");
             }
             //using (StreamWriter sw = new StreamWriter(data,true))
             //{
@@ -55,15 +55,15 @@ namespace OOP
             //File.AppendAllText(data, "Ahmed\n");
             //File.AppendAllText(data, "Iman\n");
             //    File.AppendAllText(data, " Welcome");
-            string? data2;
-            //string data2=File.ReadAllText(data);
-            using (StreamReader sr = new StreamReader(data))
-                {
-                    while((data2 = sr.ReadLine()) != null)
-                    {
-                        Console.WriteLine(data2);
-                    }
-                }
+            //string? data2;
+            ////string data2=File.ReadAllText(data);
+            //using (StreamReader sr = new StreamReader(data))
+            //    {
+            //        while((data2 = sr.ReadLine()) != null)
+            //        {
+            //            Console.WriteLine(data2);
+            //        }
+            //    }
         }
     }
 }
