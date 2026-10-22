@@ -19,11 +19,16 @@ namespace OOP
             //File.AppendAllText(data, city);
             //Console.WriteLine(File.ReadAllText(data));
 
+            using(StreamWriter sw = new StreamWriter(data))
+            {
+                sw.WriteLine("Ali");
+                sw.WriteLine("Marjan");
+                sw.WriteLine("Iman");
+            }
 
-
-            File.WriteAllText(data, "Ali Marjan\n");
-            File.AppendAllText(data, "Ahmed\n");
-            File.AppendAllText(data, "Iman\n");
+            //File.WriteAllText(data, "Ali Marjan\n");
+            //File.AppendAllText(data, "Ahmed\n");
+            //File.AppendAllText(data, "Iman\n");
             //    File.AppendAllText(data, " Welcome");
             string? data2;
             //string data2=File.ReadAllText(data);
