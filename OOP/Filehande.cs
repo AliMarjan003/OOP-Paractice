@@ -9,21 +9,28 @@ namespace OOP
     {
         internal void filec()
         {
-            string data = "student.txt";
-            //string data = "check.txt",name,city;
+            string data = "student.txt", name,name1,name2,name3;
+            //string data = "check.txt", city;
             //Console.WriteLine("Enter your name:");
             //name = Console.ReadLine();
+            //Console.WriteLine("Enter your name:");
+            //name1 = Console.ReadLine();
+            //Console.WriteLine("Enter your name:");
+            //name2 = Console.ReadLine();
+            Console.WriteLine("Enter your name:");
+            name3 = Console.ReadLine();
             //Console.WriteLine("Enter your city name:");
             //city = Console.ReadLine();
             //File.WriteAllText(data, "name is:"+ name+ " \n");
             //File.AppendAllText(data, city);
             //Console.WriteLine(File.ReadAllText(data));
 
-            using(StreamWriter sw = new StreamWriter(data))
+            using (StreamWriter sw = new StreamWriter(data,true))
             {
-                sw.WriteLine("Ali");
-                sw.WriteLine("Marjan");
-                sw.WriteLine("Iman");
+                //sw.WriteLine("1." + name);
+                //sw.WriteLine("2." + name1);
+                //sw.WriteLine("3." + name2);
+                sw.WriteLine("4."+name3);
             }
 
             //File.WriteAllText(data, "Ali Marjan\n");
