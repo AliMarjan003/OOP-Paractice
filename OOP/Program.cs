@@ -319,8 +319,10 @@ namespace OOP
             //    }
             //}
             //Console.WriteLine("Exiting!");
-            Filehande obj= new Filehande();
-            obj.filec();
+            //Filehande obj= new Filehande();
+            //obj.filec();
+            Collection obj=new Collection();
+            obj.collect();
         }
     }
 }

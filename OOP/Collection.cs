@@ -6,5 +6,17 @@ namespace OOP
 {
     internal class Collection
     {
+        internal void collect()
+        {
+            List<int> number=new List<int>();
+            Console.WriteLine("Enter 5 numbers:");
+            for (int i = 0; i <=4; i++)
+            {
+                number.Add(int.Parse(Console.ReadLine()));
+                Console.WriteLine("Numbers are:" + number);
+
+
+            }
+        }
     }
 }
