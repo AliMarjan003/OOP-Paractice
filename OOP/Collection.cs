@@ -13,10 +13,14 @@ namespace OOP
             for (int i = 0; i <=4; i++)
             {
                 number.Add(int.Parse(Console.ReadLine()));
-                Console.WriteLine("Numbers are:" + number);
-
 
             }
+            for (int i = 0; i <=4; i++)
+            {
+                Console.WriteLine(number);
+
+            }
+                Console.WriteLine("Numbers are:");
         }
     }
 }
