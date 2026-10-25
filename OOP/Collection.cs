@@ -15,12 +15,12 @@ namespace OOP
                 number.Add(int.Parse(Console.ReadLine()));
 
             }
+            Console.WriteLine("Numbers are:");
             for (int i = 0; i <=4; i++)
             {
-                Console.WriteLine(number);
+                Console.WriteLine(number[i]);
 
             }
-                Console.WriteLine("Numbers are:");
         }
     }
 }
