@@ -8,21 +8,21 @@ namespace OOP
     {
         internal void collect()
         {
-            List<int> number=new List<int>();
-            int sum = 0;
-            Console.WriteLine("Enter 5 numbers:");
-            for (int i = 0; i < 5; i++)
-            {
-                number.Add(int.Parse(Console.ReadLine()));
-            }
-            Console.WriteLine("Number are:");
-            for(int i = 0;i < 5; i++)
-            {
-                Console.WriteLine(number[i]);
-                sum = sum + number[i];
-            }
-            Console.WriteLine("Sum is:" + sum);
-            Console.WriteLine( number.Count);
+            //List<int> number=new List<int>();
+            //int sum = 0;
+            //Console.WriteLine("Enter 5 numbers:");
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    number.Add(int.Parse(Console.ReadLine()));
+            //}
+            //Console.WriteLine("Number are:");
+            //for(int i = 0;i < 5; i++)
+            //{
+            //    Console.WriteLine(number[i]);
+            //    sum = sum + number[i];
+            //}
+            //Console.WriteLine("Sum is:" + sum);
+            //Console.WriteLine( number.Count);
             //for (int i = 0; i <=4; i++)
             //{
             //    number.Add(int.Parse(Console.ReadLine()));
@@ -32,9 +32,18 @@ namespace OOP
             //for (int i = 0; i <=4; i++)
             //{
             //    Console.WriteLine(number[i]);
-
             //}
+            Dictionary<int, string> student = new Dictionary<int, string>();
+            for(int i=0; i<=10; i++)
+            {
+                Console.WriteLine("Enter Data:");
+                student.Add(i, Console.ReadLine());
+            }
+            for(int i=0; i <= 10; i++)
+            {
 
+                Console.WriteLine("Data is:" + student[i]);
+            }
         }
     }
 }
