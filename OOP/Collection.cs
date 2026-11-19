@@ -33,19 +33,19 @@ namespace OOP
             //{
             //    Console.WriteLine(number[i]);
             //}
-            int count=0;
+            //int count=0;
             Dictionary<int, string> student = new Dictionary<int, string>();
             for(int i=0; i<5; i++)
             {
                 Console.WriteLine("Enter Data:");
                 student.Add(i, Console.ReadLine());
-                count++;
+                //count++;
             }
             for(int i=0; i < 5; i++)
             {
-                Console.WriteLine("Data is:" + student[i]);
+                Console.WriteLine(i+ ":" + student[i]);
             }
-                Console.WriteLine("Total Students are:" + count);
+                Console.WriteLine("Total Students are:" +student.Count);
         }
     }
 }
