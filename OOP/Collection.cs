@@ -44,8 +44,8 @@ namespace OOP
             for(int i=0; i < 5; i++)
             {
                 Console.WriteLine("Data is:" + student[i]);
-                Console.WriteLine("Total Studentsare:" + count);
             }
+                Console.WriteLine("Total Students are:" + count);
         }
     }
 }
