@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
 
 namespace OOP
 {
@@ -34,18 +35,35 @@ namespace OOP
             //    Console.WriteLine(number[i]);
             //}
             //int count=0;
-            Dictionary<int, string> student = new Dictionary<int, string>();
-            for(int i=0; i<5; i++)
+            //Dictionary<int, string> student = new Dictionary<int, string>();
+            //for(int i=0; i<5; i++)
+            //{
+            //    Console.WriteLine("Enter Data:");
+            //    student.Add(i, Console.ReadLine());
+            //    //count++;
+            //}
+            //for(int i=0; i < 5; i++)
+            //{
+            //    Console.WriteLine(i+ ":" + student[i]);
+            //}
+            //    Console.WriteLine("Total Students are:" +student.Count);
+            Dictionary<string,int>students= new Dictionary<string,int>();
+            int total = 0;
+            for (int i = 0; i < 5; i++)
             {
-                Console.WriteLine("Enter Data:");
-                student.Add(i, Console.ReadLine());
-                //count++;
+                Console.WriteLine("Enter student name:");
+                string name=Console.ReadLine();
+                Console.WriteLine("Enter Students marks:");
+                int marks=int.Parse(Console.ReadLine());
+                students.Add(name, marks);
             }
-            for(int i=0; i < 5; i++)
+                Console.WriteLine("Students Record:");
+            for (int i = 0;i < 5; i++)
             {
-                Console.WriteLine(i+ ":" + student[i]);
+                Console.WriteLine(students.ElementAt(i).Key+ ":" + students.ElementAt(i).Value);
+                total+=students.ElementAt(i).Value;
             }
-                Console.WriteLine("Total Students are:" +student.Count);
+            Console.WriteLine("Total:" + total);
         }
     }
 }
