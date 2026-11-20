@@ -47,23 +47,47 @@ namespace OOP
             //    Console.WriteLine(i+ ":" + student[i]);
             //}
             //    Console.WriteLine("Total Students are:" +student.Count);
-            Dictionary<string,int>students= new Dictionary<string,int>();
-            int total = 0;
+            //Dictionary<string,int>students= new Dictionary<string,int>();
+            //int total = 0;
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    Console.WriteLine("Enter student name:");
+            //    string name=Console.ReadLine();
+            //    Console.WriteLine("Enter Students marks:");
+            //    int marks=int.Parse(Console.ReadLine());
+            //    students.Add(name, marks);
+            //}
+            //    Console.WriteLine("Students Record:");
+            //for (int i = 0;i < 5; i++)
+            //{
+            //    Console.WriteLine(students.ElementAt(i).Key+ ":" + students.ElementAt(i).Value);
+            //    total+=students.ElementAt(i).Value;
+            //}
+            //Console.WriteLine("Total:" + total);
+            int maxprice = 0;
+            string maxproduct = "";
+            Dictionary<string, int> product = new Dictionary<string, int>();
             for (int i = 0; i < 5; i++)
             {
-                Console.WriteLine("Enter student name:");
-                string name=Console.ReadLine();
-                Console.WriteLine("Enter Students marks:");
-                int marks=int.Parse(Console.ReadLine());
-                students.Add(name, marks);
+                Console.WriteLine("Enter Product name:");
+                string product_name = Console.ReadLine();
+                Console.WriteLine("Enter product price:");
+                int product_price=int.Parse(Console.ReadLine());
+                product.Add(product_name, product_price);
             }
-                Console.WriteLine("Students Record:");
-            for (int i = 0;i < 5; i++)
+            for(int i = 0;i < 5; i++)
             {
-                Console.WriteLine(students.ElementAt(i).Key+ ":" + students.ElementAt(i).Value);
-                total+=students.ElementAt(i).Value;
+                Console.WriteLine(product.ElementAt(i).Key + ":" + product.ElementAt(i).Value);
+                //string produc_name = product.ElementAt(i).Key;
+                //int product_price = product.ElementAt(i).Value;
+                if (product.ElementAt(i).Value > maxprice)
+                {
+                    maxprice = product.ElementAt(i).Value;
+                    maxproduct = product.ElementAt(i).Key;
+                }
             }
-            Console.WriteLine("Total:" + total);
+            Console.WriteLine("Produt name according to max price:"+maxproduct);
+            Console.WriteLine("Max price of Product:"+maxprice);
         }
     }
 }
