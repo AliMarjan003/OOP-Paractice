@@ -80,7 +80,7 @@ namespace OOP
                 Console.WriteLine(product.ElementAt(i).Key + ":" + product.ElementAt(i).Value);
                 //string produc_name = product.ElementAt(i).Key;
                 //int product_price = product.ElementAt(i).Value;
-                if (product.ElementAt(i).Value > maxprice)
+                if (product.ElementAt(i).Value < maxprice)
                 {
                     maxprice = product.ElementAt(i).Value;
                     maxproduct = product.ElementAt(i).Key;
