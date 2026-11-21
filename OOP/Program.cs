@@ -321,8 +321,10 @@ namespace OOP
             //Console.WriteLine("Exiting!");
             //Filehande obj= new Filehande();
             //obj.filec();
-            Collection obj=new Collection();
-            obj.collect();
+            //Collection obj=new Collection();
+            //obj.collect();
+            hash obj = new hash();
+            obj.hashcheck();
         }
     }
 }
