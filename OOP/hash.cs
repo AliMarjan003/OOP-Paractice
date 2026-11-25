@@ -58,7 +58,7 @@ namespace OOP
                 int num=int.Parse(Console.ReadLine());
                 set1.Add(num);
             }
-            Console.WriteLine("Enter values for set1:");
+            Console.WriteLine("Enter values for set2:");
             for (int i = 0; i < 4; i++)
             {
                 int num=int.Parse(Console.ReadLine());
