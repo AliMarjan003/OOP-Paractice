@@ -8,28 +8,48 @@ namespace OOP
     {
         internal void hashcheck()
         {
-            HashSet<int> number = new HashSet<int>();
-            for (int i = 0; i<5; i++)
-            {
-                int num=int.Parse(Console.ReadLine());
-                number.Add(num);
-            }
-            Console.WriteLine("Unique Numbers:");
-            for (int i = 0;i<number.Count; i++)
-            {
-                Console.WriteLine(number.ElementAt(i));
-            }
-            //if (number.Contains(30))
+            //HashSet<int> number = new HashSet<int>();
+            //for (int i = 0; i<5; i++)
+            //{
+            //    int num=int.Parse(Console.ReadLine());
+            //    number.Add(num);
+            //}
+            //Console.WriteLine("Unique Numbers:");
+            //for (int i = 0;i<number.Count; i++)
+            //{
+            //    Console.WriteLine(number.ElementAt(i));
+            //}
+            ////if (number.Contains(30))
+            ////{
+            ////    Console.WriteLine("Number exists");
+            ////}
+            //Console.WriteLine("Enter number to search:");
+            //int search=int.Parse(Console.ReadLine());
+            //if (number.Contains(search))
             //{
             //    Console.WriteLine("Number exists");
             //}
-            Console.WriteLine("Enter number to search:");
-            int search=int.Parse(Console.ReadLine());
-            if (number.Contains(search))
+            //Console.WriteLine("Total Unique numbers:"+number.Count);
+            HashSet<int> set1=new HashSet<int>();
+            HashSet<int> set2=new HashSet<int>();
+            Console.WriteLine("Enter values:");
+            for (int i = 0; i < 4; i++)
             {
-                Console.WriteLine("Number exists");
+                int num=int.Parse(Console.ReadLine());
+                set1.Add(num);
             }
-            Console.WriteLine("Total Unique numbers:"+number.Count);
+            for (int i = 0; i < 4; i++)
+            {
+                int num=int.Parse(Console.ReadLine());
+                set2.Add(num);
+            }
+            set1.UnionWith(set2);
+            Console.WriteLine("Unique values are:");
+            for (int i = 0;i < set1.Count; i++)
+            {
+                Console.WriteLine("Unique values are:"+set1.ElementAt(i));
+            }
+            Console.WriteLine("TotalUnique values are:"+set1.Count);
         }
     }
 }
