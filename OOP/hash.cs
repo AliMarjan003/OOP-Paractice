@@ -30,26 +30,46 @@ namespace OOP
             //    Console.WriteLine("Number exists");
             //}
             //Console.WriteLine("Total Unique numbers:"+number.Count);
+            //HashSet<int> set1=new HashSet<int>();
+            //HashSet<int> set2=new HashSet<int>();
+            //Console.WriteLine("Enter values for set1:");
+            //for (int i = 0; i < 4; i++)
+            //{
+            //    int num=int.Parse(Console.ReadLine());
+            //    set1.Add(num);
+            //}
+            //Console.WriteLine("Enter values for set1:");
+            //for (int i = 0; i < 4; i++)
+            //{
+            //    int num=int.Parse(Console.ReadLine());
+            //    set2.Add(num);
+            //}
+            //set1.UnionWith(set2);
+            //for (int i = 0;i < set1.Count; i++)
+            //{
+            //    Console.WriteLine("Unique value is:"+set1.ElementAt(i));
+            //}
+            //Console.WriteLine("Total Unique values are:"+set1.Count);
             HashSet<int> set1=new HashSet<int>();
             HashSet<int> set2=new HashSet<int>();
-            Console.WriteLine("Enter values:");
+            Console.WriteLine("Enter values for set1:");
             for (int i = 0; i < 4; i++)
             {
                 int num=int.Parse(Console.ReadLine());
                 set1.Add(num);
             }
+            Console.WriteLine("Enter values for set1:");
             for (int i = 0; i < 4; i++)
             {
                 int num=int.Parse(Console.ReadLine());
                 set2.Add(num);
             }
-            set1.UnionWith(set2);
-            Console.WriteLine("Unique values are:");
+            set1.IntersectWith(set2);
             for (int i = 0;i < set1.Count; i++)
             {
-                Console.WriteLine("Unique values are:"+set1.ElementAt(i));
+                Console.WriteLine("Unique value is:"+set1.ElementAt(i));
             }
-            Console.WriteLine("TotalUnique values are:"+set1.Count);
+            Console.WriteLine("Total Unique values are:"+set1.Count);
         }
     }
 }
