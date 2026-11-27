@@ -323,8 +323,10 @@ namespace OOP
             //obj.filec();
             //Collection obj=new Collection();
             //obj.collect();
-            hash obj = new hash();
-            obj.hashcheck();
+            //hash obj = new hash();
+            //obj.hashcheck();
+            queue obj= new queue();
+            obj.queuecheck();
         }
     }
 }
