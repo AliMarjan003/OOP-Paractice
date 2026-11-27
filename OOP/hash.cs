@@ -50,26 +50,46 @@ namespace OOP
             //    Console.WriteLine("Unique value is:"+set1.ElementAt(i));
             //}
             //Console.WriteLine("Total Unique values are:"+set1.Count);
-            HashSet<int> set1=new HashSet<int>();
-            HashSet<int> set2=new HashSet<int>();
+            //HashSet<int> set1=new HashSet<int>();
+            //HashSet<int> set2=new HashSet<int>();
+            //Console.WriteLine("Enter values for set1:");
+            //for (int i = 0; i < 4; i++)
+            //{
+            //    int num=int.Parse(Console.ReadLine());
+            //    set1.Add(num);
+            //}
+            //Console.WriteLine("Enter values for set2:");
+            //for (int i = 0; i < 4; i++)
+            //{
+            //    int num=int.Parse(Console.ReadLine());
+            //    set2.Add(num);
+            //}
+            //set1.IntersectWith(set2);
+            //for (int i = 0;i < set1.Count; i++)
+            //{
+            //    Console.WriteLine("Unique value is:"+set1.ElementAt(i));
+            //}
+            //Console.WriteLine("Total Unique values are:"+set1.Count);
+            HashSet<string> set1=new HashSet<string>();
+            HashSet<string> set2=new HashSet<string>();
             Console.WriteLine("Enter values for set1:");
             for (int i = 0; i < 4; i++)
             {
-                int num=int.Parse(Console.ReadLine());
-                set1.Add(num);
+                string name=Console.ReadLine();
+                set1.Add(name);
             }
             Console.WriteLine("Enter values for set2:");
             for (int i = 0; i < 4; i++)
             {
-                int num=int.Parse(Console.ReadLine());
-                set2.Add(num);
+                string name=Console.ReadLine();
+                set2.Add(name);
             }
-            set1.IntersectWith(set2);
+            set1.SymmetricExceptWith(set2);
             for (int i = 0;i < set1.Count; i++)
             {
-                Console.WriteLine("Unique value is:"+set1.ElementAt(i));
+                Console.WriteLine("Excepted value is:"+set1.ElementAt(i));
             }
-            Console.WriteLine("Total Unique values are:"+set1.Count);
+            Console.WriteLine("Total Excepted values are:"+set1.Count);
         }
     }
 }
