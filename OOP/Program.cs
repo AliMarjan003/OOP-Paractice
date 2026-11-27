@@ -325,8 +325,12 @@ namespace OOP
             //obj.collect();
             //hash obj = new hash();
             //obj.hashcheck();
-            queue obj= new queue();
-            obj.queuecheck();
+            //queue obj= new queue();
+            //obj.queuecheck();
+            //stack obj= new stack();
+            //obj.stackcheck();
+            arraylist obj= new arraylist();
+            obj.arrlistcheck();
         }
     }
 }

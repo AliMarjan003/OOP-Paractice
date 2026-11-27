@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "D:\\Github\\OOP-Paractice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|d:\\github\\oop-paractice\\oop\\queue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|solutionrelative:oop\\queue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|d:\\github\\oop-paractice\\oop\\arraylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|solutionrelative:oop\\arraylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|d:\\github\\oop-paractice\\oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|solutionrelative:oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|d:\\github\\oop-paractice\\oop\\hash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|solutionrelative:oop\\hash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|d:\\github\\oop-paractice\\oop\\collection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|solutionrelative:oop\\collection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|d:\\github\\oop-paractice\\oop\\stack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|solutionrelative:oop\\stack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|d:\\github\\oop-paractice\\oop\\queue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|solutionrelative:oop\\queue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|d:\\github\\oop-paractice\\oop\\hash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|solutionrelative:oop\\hash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3005AC2E-C28B-7502-D13D-7C589368E488}|OOP\\OOP.csproj|d:\\github\\oop-paractice\\oop\\marksmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,9 +74,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Github\\OOP-Paractice\\OOP\\Program.cs",
               "RelativeDocumentMoniker": "OOP\\Program.cs",
-              "ToolTip": "D:\\Github\\OOP-Paractice\\OOP\\Program.cs*",
-              "RelativeToolTip": "OOP\\Program.cs*",
-              "ViewState": "AgIAAD4BAAAAAAAAAAAUwEgBAAAdAAAAAAAAAA==",
+              "ToolTip": "D:\\Github\\OOP-Paractice\\OOP\\Program.cs",
+              "RelativeToolTip": "OOP\\Program.cs",
+              "ViewState": "AgIAAEUBAAAAAAAAAAAQwEwBAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-25T19:05:42.168Z",
               "IsPinned": true,
@@ -77,19 +85,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "arraylist.cs",
+              "DocumentMoniker": "D:\\Github\\OOP-Paractice\\OOP\\arraylist.cs",
+              "RelativeDocumentMoniker": "OOP\\arraylist.cs",
+              "ToolTip": "D:\\Github\\OOP-Paractice\\OOP\\arraylist.cs",
+              "RelativeToolTip": "OOP\\arraylist.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCMAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-27T18:43:27.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "stack.cs",
+              "DocumentMoniker": "D:\\Github\\OOP-Paractice\\OOP\\stack.cs",
+              "RelativeDocumentMoniker": "OOP\\stack.cs",
+              "ToolTip": "D:\\Github\\OOP-Paractice\\OOP\\stack.cs",
+              "RelativeToolTip": "OOP\\stack.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwBYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-27T18:23:45.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "queue.cs",
               "DocumentMoniker": "D:\\Github\\OOP-Paractice\\OOP\\queue.cs",
               "RelativeDocumentMoniker": "OOP\\queue.cs",
-              "ToolTip": "D:\\Github\\OOP-Paractice\\OOP\\queue.cs*",
-              "RelativeToolTip": "OOP\\queue.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAArAAAAAAAAAA==",
+              "ToolTip": "D:\\Github\\OOP-Paractice\\OOP\\queue.cs",
+              "RelativeToolTip": "OOP\\queue.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAAB0AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-27T17:45:53.951Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "hash.cs",
               "DocumentMoniker": "D:\\Github\\OOP-Paractice\\OOP\\hash.cs",
               "RelativeDocumentMoniker": "OOP\\hash.cs",
@@ -102,19 +136,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Collection.cs",
               "DocumentMoniker": "D:\\Github\\OOP-Paractice\\OOP\\Collection.cs",
               "RelativeDocumentMoniker": "OOP\\Collection.cs",
               "ToolTip": "D:\\Github\\OOP-Paractice\\OOP\\Collection.cs",
               "RelativeToolTip": "OOP\\Collection.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAABYAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAABYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-25T18:39:51.487Z"
+              "WhenOpened": "2026-10-25T18:39:51.487Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Filehande.cs",
               "DocumentMoniker": "D:\\Github\\OOP-Paractice\\OOP\\Filehande.cs",
               "RelativeDocumentMoniker": "OOP\\Filehande.cs",
@@ -126,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "filetext.cs",
               "DocumentMoniker": "D:\\Github\\OOP-Paractice\\OOP\\filetext.cs",
               "RelativeDocumentMoniker": "OOP\\filetext.cs",
@@ -138,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Exception.cs",
               "DocumentMoniker": "D:\\Github\\OOP-Paractice\\OOP\\Exception.cs",
               "RelativeDocumentMoniker": "OOP\\Exception.cs",
@@ -150,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Marksmanager.cs",
               "DocumentMoniker": "D:\\Github\\OOP-Paractice\\OOP\\Marksmanager.cs",
               "RelativeDocumentMoniker": "OOP\\Marksmanager.cs",
@@ -162,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Classroom.cs",
               "DocumentMoniker": "D:\\Github\\OOP-Paractice\\OOP\\Classroom.cs",
               "RelativeDocumentMoniker": "OOP\\Classroom.cs",
@@ -174,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Student.cs",
               "DocumentMoniker": "D:\\Github\\OOP-Paractice\\OOP\\Student.cs",
               "RelativeDocumentMoniker": "OOP\\Student.cs",
@@ -186,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Payment.cs",
               "DocumentMoniker": "D:\\Github\\OOP-Paractice\\OOP\\Payment.cs",
               "RelativeDocumentMoniker": "OOP\\Payment.cs",
@@ -198,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Vehicle2.cs",
               "DocumentMoniker": "D:\\Github\\OOP-Paractice\\OOP\\Vehicle2.cs",
               "RelativeDocumentMoniker": "OOP\\Vehicle2.cs",

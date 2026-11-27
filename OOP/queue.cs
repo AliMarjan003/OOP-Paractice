@@ -9,18 +9,33 @@ namespace OOP
         internal void queuecheck()
         {
             Queue<string> data = new Queue<string>();
-            for (int i = 0; i < 5; i++)
+            Console.WriteLine("Enter data:");
+            for (int i = 0; i < 2; i++)
             {
                 string name=Console.ReadLine();
                 data.Enqueue(name);
             }
             Console.WriteLine("Total values are:" + data.Count);
-            for (int i = 0;i < 1; i++)
+            Console.WriteLine("Enter name to search");
+            string search = Console.ReadLine();
+            if(data.Contains(search))
             {
-                string removed=data.Dequeue();
-                Console.WriteLine("Removed values are:"+removed);
+                Console.WriteLine("Name exists");
             }
-            Console.WriteLine(data.Peek());
+            else
+            {
+                Console.WriteLine("Name doesn't exists!");
+            }
+            data.Clear();
+            Console.WriteLine(data.Count);
+            //for (int i = 0;i < 2; i++)
+            //{
+            //    string removed=data.Dequeue();
+            //    Console.WriteLine("Removed values are:"+removed);
+            //}
+            //Console.WriteLine("Before Peek");
+            //Console.WriteLine("First remaining value: " + data.Peek());
+            //Console.WriteLine("After Peek");
         }
     }
 }
